@@ -36,14 +36,25 @@
     "Weekly Allocation": "10TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-04-17 06:29:35.021177278 UTC",
+    "Validated By": "spaceT9",
     "Active": true,
-    "Updated At": "2024-03-26 01:39:19.768177964 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-04-17 06:29:35.021180960 UTC",
+    "Active Request ID": "f4dd4424-994e-493b-bd13-452c49342a7e",
     "On Chain Address": "f1fmcgclzh7m7pmi3i7qgz3ujpsv5ml5uhhpjeogy",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "f4dd4424-994e-493b-bd13-452c49342a7e",
+      "Request Type": "First",
+      "Created At": "2024-04-17 06:29:35.021182759 UTC",
+      "Updated At": "2024-04-17 06:29:35.021183718 UTC",
+      "Active": true,
+      "Allocation Amount": "1TiB",
+      "Signers": []
+    }
+  ]
 }
