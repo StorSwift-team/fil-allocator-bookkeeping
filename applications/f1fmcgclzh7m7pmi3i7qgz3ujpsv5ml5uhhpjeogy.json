@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "123",
     "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
     "Describe the data being stored onto Filecoin": "123",
@@ -36,11 +35,11 @@
     "Weekly Allocation": "10TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-17 06:29:35.021177278 UTC",
     "Validated By": "spaceT9",
     "Active": true,
-    "Updated At": "2024-04-17 06:29:35.021180960 UTC",
+    "Updated At": "2024-05-28 02:21:16.845277610 UTC",
     "Active Request ID": "f4dd4424-994e-493b-bd13-452c49342a7e",
     "On Chain Address": "f1fmcgclzh7m7pmi3i7qgz3ujpsv5ml5uhhpjeogy",
     "Multisig Address": "false",
@@ -52,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-04-17 06:29:35.021182759 UTC",
       "Updated At": "2024-04-17 06:29:35.021183718 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "spaceT9",
+          "Signing Address": "f1id4vdnfmhic5lgf33jpwdugqphso7kmauc2w4va",
+          "Created At": "2024-05-28 02:21:13.603000000 UTC",
+          "Message CID": "bafy2bzacecw5fbm2mz2lsq5l4ld4a3suj7wr4cs7yv7lxn7h45cqlsijqjnbk"
+        }
+      ]
     }
   ]
 }
