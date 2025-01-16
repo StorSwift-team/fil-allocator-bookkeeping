@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1awaukjvlselaifiyklt3aad2kcl56z62vzbj2ia",
+  "Issue Number": "8",
+  "Client": {
+    "Name": "Jingshengya",
+    "Region": "China",
+    "Industry": "Education & Training",
+    "Website": "https://www.jingshengya.net/#/index",
+    "Social Media": "https://www.jingshengya.net/#/index",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Jing Shengya Education System, an autonomous brand under Sichuan Jiafa Jing Shengya Education Technology Co., Ltd., a subsidiary of Jiafa Education, focuses on the research and development of big data platforms for college preference selection following the College Entrance Examination (CEE), career planning platform development, consulting services for career planning and college preference selection, training for consultants specializing in career planning and college preference selection, as well as winter and summer camp training programs for career planning. It provides online services for CEE college preference selection, subject choice guidance for new CEE reforms, career planning, comprehensive quality evaluation, and admission planning services such as the Strong Foundation Plan to over 9 million college entrance examinees each year.\r\n\r\nSince 2016, Jing Shengya has cumulatively served more than 3 million examinees across the country, becoming an influential platform within the industry for career planning and college preference selection. After years of research and accumulation, Jing Shengya now covers 29 provinces and has nearly ten million registered users.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Education and Training Related Videos",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://wx.jingshengya.net/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03298672\r\nf03308920\r\nf03308933\r\nf03298673\r\nf03308922.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "780TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-16 08:38:14.420375953 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1awaukjvlselaifiyklt3aad2kcl56z62vzbj2ia",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
