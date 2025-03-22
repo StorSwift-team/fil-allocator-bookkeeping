@@ -35,7 +35,7 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2024-11-22 13:05:44.571825641 UTC",
     "Validated By": "spaceT9",
     "Active": true,
