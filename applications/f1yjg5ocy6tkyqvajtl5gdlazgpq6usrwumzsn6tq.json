@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1yjg5ocy6tkyqvajtl5gdlazgpq6usrwumzsn6tq",
+  "Issue Number": "18",
+  "Client": {
+    "Name": "XinYi Tech",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "https://aigc.yizhentv.com/",
+    "Social Media": "https://aigc.yizhentv.com/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Miaochuang (aigc.yizhentv.com) is a cutting-edge intelligent content generation platform developed by New One Technology. Built on the New One Video Large Model and the Yizhen AIGC Intelligent Engine, it provides users with AI-powered creative services such as AI-assisted writing, text-to-speech, AI-generated art, and AI video production (AI complete videos). By intelligently analyzing scripts, materials, voice synthesis, subtitles, and more, Miaochuang enables rapid adjustments and quick video creation, offering zero-threshold video production. It enhances content production efficiency and empowers creators of images, videos, marketing, converged media, financial insurance, e-commerce, local lifestyle, and other vertical fields. The platform has served over 2 million self-media bloggers and related organizations to date. Since its launch, it has gained widespread popularity through collaborations like the AI Art Competition with Weibo, becoming the exclusive AIGC cooperation platform at the 2023 Changsha Weibo Influencer Festival, where attendees experienced unique AIGC applications. Additionally, it co-hosted the National Centre for the Performing Arts' image generation exhibition *Dance•Shadow: Dancing at the Tip of a Pen*, which was highly acclaimed. Yizhen Miaochuang continues to deepen AIGC technology, driving the \"AIGC+\" transformation of content consumption and marketing ecosystems.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Miaochuang leverages the XinYi Video Large Model and the Yizhen AIGC Intelligent Engine to provide services such as AI-assisted writing, text-to-speech, AI-generated art, and video creation, significantly improving content production efficiency. The data stored on the Filecoin network includes various creative outputs, ranging from text to multimedia, such as AI-generated works and user-uploaded content. This data supports the development of multiple vertical fields like marketing and converged media, driving the \"AIGC+\" transformation of content consumption ecosystems.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "As a Filecoin data preparer, I would use tools like IPFS, Lotus, and Python scripts to clean, shard, and encrypt the data, while leveraging distributed storage technology to ensure data security and retrievability.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://aigc.yizhentv.com/product/aiVideo\nhttps://aigc.yizhentv.com/product/aiPainting\nhttps://aigc.yizhentv.com/product/imageTextToVideo",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 \nf02916974\nf03233304\nf02952530 \nf03233356 \nf02924003\nf02893152\nf02866013",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "970TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "900TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-04-23 03:16:26.142919761 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1yjg5ocy6tkyqvajtl5gdlazgpq6usrwumzsn6tq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
