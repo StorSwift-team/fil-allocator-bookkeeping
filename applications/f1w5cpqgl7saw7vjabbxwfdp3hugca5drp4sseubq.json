@@ -35,11 +35,11 @@
     "Weekly Allocation": "800TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-04-25 10:28:58.451938345 UTC",
+    "State": "Granted",
+    "Validated At": "2025-04-25 10:31:05.574876021 UTC",
     "Validated By": "spaceT9",
     "Active": true,
-    "Updated At": "2025-04-25 10:28:58.451943073 UTC",
+    "Updated At": "2025-04-25 10:31:05.574871513 UTC",
     "Active Request ID": "5886b393-1db7-4149-a2c3-88b834a0c857",
     "On Chain Address": "f1w5cpqgl7saw7vjabbxwfdp3hugca5drp4sseubq",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2025-04-25 10:28:58.451944881 UTC",
       "Updated At": "2025-04-25 10:28:58.451945746 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "879609302220800 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "spaceT9",
+          "Signing Address": "f1id4vdnfmhic5lgf33jpwdugqphso7kmauc2w4va",
+          "Created At": "2025-04-25 10:31:03.250000000 UTC",
+          "Message CID": "bafy2bzacebhdttvl5q44hqn3l2yvc4jnof44lgnxz4ab2qbzh6pp74tplg3pk"
+        }
+      ]
     }
   ]
 }
