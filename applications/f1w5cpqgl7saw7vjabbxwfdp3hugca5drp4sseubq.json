@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1w5cpqgl7saw7vjabbxwfdp3hugca5drp4sseubq",
+  "Issue Number": "16",
+  "Client": {
+    "Name": "National Cancer Institute, NCI / National Human Genome Research Institute, NHGRI",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/tcga/",
+    "Social Media": "https://registry.opendata.aws/tcga/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Cancer Genome Atlas (TCGA) is a project initiated jointly by the National Cancer Institute (NCI) and the National Human Genome Research Institute (NHGRI). Its goal is to create comprehensive, multi-dimensional maps of the key genomic changes in major types and subtypes of cancer.\n\n### Brief History of the Project and Organization\n\n- **Background**: Following the successful completion of the Human Genome Project, scientists saw the potential for using similar high-throughput sequencing technologies to study cancer. This led to the conception and launch of the TCGA project.\n\n- **Initiation and Development**: TCGA was launched as a pilot project in 2006 and expanded into a full-scale research initiative in 2009. The project aimed to analyze matched tumor and normal tissue samples from 11,000 patients, covering 33 different cancer types, including 10 rare cancers.\n\n- **Data Collection and Analysis**: TCGA collects a variety of data types, including open Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantification, miRNA-Seq Isoform Expression Quantification, and more. It also includes controlled access data such as Whole Exome Sequencing (WXS), RNA-Seq, miRNA-Seq, and other raw and processed datasets.\n\n- **Collaboration and Contribution**: TCGA is not just a database; it is also a platform that fosters global scientific collaboration. Through this platform, researchers can share data and resources, enhancing the understanding of cancer biology and facilitating the development of new diagnostic and therapeutic methods.\n\n- **Migration to AWS**: To improve data accessibility and usability, TCGA data is now publicly available through Amazon Web Services (AWS). This move makes it easier for researchers to access these valuable datasets, supporting further research and development. \n\nTCGA has become an essential resource for cancer genomics research, providing vast amounts of data to the scientific community and driving progress in precision medicine. Through the NIH STRIDES Initiative, TCGA data can be accessed on AWS, making it more convenient for scientists worldwide to conduct their research.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Clinical Supplement Data: Includes clinical information about patients, such as diagnosis, treatment history, etc.\nBiospecimen Supplement Data: Detailed information about the biological samples used for research, including their source and processing methods.\nRNA-Seq Gene Expression Quantification: Provides data on gene expression levels in tumor tissues.\nmiRNA-Seq Isoform Expression Quantification: Contains information on microRNA expression in tumors.\nGenotyping Array Copy Number Segment: Displays information on copy number variations within the genome.\nWhole Exome Sequencing (WXS) Masked Somatic Mutation Data: Involves detailed information on tumor-specific mutations.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/tcga/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer, Venus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03512458 \nf03233304\nf02924003 \nf03512720 \nf02893152\nf03513151 \nf03233356\nf03524179\nf02866013 \nf03513182 \nf03321072 \nf03528948\nf02869125 \nf03528979\nf02916974 \nf03529412\nf02952530 ",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-04-25 10:31:05.574876021 UTC",
+    "Validated By": "spaceT9",
+    "Active": true,
+    "Updated At": "2025-04-25 10:31:05.574871513 UTC",
+    "Active Request ID": "5886b393-1db7-4149-a2c3-88b834a0c857",
+    "On Chain Address": "f1w5cpqgl7saw7vjabbxwfdp3hugca5drp4sseubq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "5886b393-1db7-4149-a2c3-88b834a0c857",
+      "Request Type": "First",
+      "Created At": "2025-04-25 10:28:58.451944881 UTC",
+      "Updated At": "2025-04-25 10:28:58.451945746 UTC",
+      "Active": false,
+      "Allocation Amount": "879609302220800 B",
+      "Signers": [
+        {
+          "Github Username": "spaceT9",
+          "Signing Address": "f1id4vdnfmhic5lgf33jpwdugqphso7kmauc2w4va",
+          "Created At": "2025-04-25 10:31:03.250000000 UTC",
+          "Message CID": "bafy2bzacebhdttvl5q44hqn3l2yvc4jnof44lgnxz4ab2qbzh6pp74tplg3pk"
+        }
+      ]
+    }
+  ]
+}
