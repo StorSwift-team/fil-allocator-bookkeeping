@@ -16,15 +16,15 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The data products of this release can be available from the website http://dr10.lamost.org/v2.0/、https://www.lamost.org/dr10/v1.0/",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "As a data preparer, I mainly prepare data through official tools such as boost, lotus, Singularity, etc.",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.lamost.org/dr10/v1.0/",
-    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
-    "What is the expected retrieval frequency for this data": "Sporadic",
-    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
-    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
-    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03151456\nf03229932 \nf03229933\nf03151449\nf1315096 \nf03055005 \nf03055018 \nf03055029\nf01518369\nf01889668\nf03151456\nf03179572\nf03214937\nf03178144\nf03178077\nf01106668 \nf0870558 \nf03151449\nf03202108\nf03254235\nf03239692",
-    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+    "How do you plan to prepare the dataset": "The data preparation process is mainly as follows:",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
   },
   "Datacap": {
     "Type": "ldn-v3",
@@ -43,7 +43,7 @@
     "Active Request ID": "78a4abb5-972c-4509-8a48-fba0396cb8d4",
     "On Chain Address": "f1zbwowanywxva2hwrzedxqy7hpgkoavl7nrca4la",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
