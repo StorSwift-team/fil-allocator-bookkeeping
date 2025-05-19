@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Miaochuang leverages the XinYi Video Large Model and the Yizhen AIGC Intelligent Engine to provide services such as AI-assisted writing, text-to-speech, AI-generated art, and video creation, significantly improving content production efficiency. The data stored on the Filecoin network includes various creative outputs, ranging from text to multimedia, such as AI-generated works and user-uploaded content. This data supports the development of multiple vertical fields like marketing and converged media, driving the \"AIGC+\" transformation of content consumption ecosystems.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "As a Filecoin data preparer, I would use tools like IPFS, Lotus, and Python scripts to clean, shard, and encrypt the data, while leveraging distributed storage technology to ensure data security and retrievability.",
+    "How do you plan to prepare the dataset": "As a Filecoin data preparer, I would use tools such as IPFS, Lotus, and Python scripts to clean, shard, and encrypt the data, while leveraging distributed storage technology to ensure data security and retrievability. First, I would clean the data by removing redundant and unnecessary information to optimize storage efficiency. Next, I would use sharding techniques to split large files into smaller fragments, allowing for more efficient distribution and storage across the network, as well as improving data transfer speeds. Then, I would apply strong encryption algorithms to each data fragment to ensure the security of sensitive information during storage and transmission. Finally, I would utilize Filecoin's unique proof mechanisms, such as Proof-of-Replication and Proof-of-Spacetime, to verify that the data is correctly and continuously stored across multiple independent nodes, thereby enhancing the reliability and availability of the data.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://aigc.yizhentv.com/product/aiVideo\nhttps://aigc.yizhentv.com/product/aiPainting\nhttps://aigc.yizhentv.com/product/imageTextToVideo",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
@@ -29,9 +29,9 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "5PiB",
+    "Total Requested Amount": "8PiB",
     "Single Size Dataset": "970TiB",
-    "Replicas": 5,
+    "Replicas": 8,
     "Weekly Allocation": "900TiB"
   },
   "Lifecycle": {
@@ -43,7 +43,7 @@
     "Active Request ID": "1506cc62-d126-4747-abcf-2d23e60a5e1a",
     "On Chain Address": "f1yjg5ocy6tkyqvajtl5gdlazgpq6usrwumzsn6tq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
