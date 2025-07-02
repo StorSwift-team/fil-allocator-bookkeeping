@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1tnzxjoau62th2n7wmx6j3qkjurs75niler54dbi",
   "Issue Number": "32",
+  "Client Contract Address": "f410ft6h42gg2yl3wcyqsnp6lpwnynj5zsrez7tvi7di",
   "Client": {
     "Name": "Xinzhou",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-07-02 12:52:57.954543874 UTC",
+    "Validated By": "spaceT9",
     "Active": true,
-    "Updated At": "2025-07-02 12:52:06.379445181 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-07-02 12:52:57.954548310 UTC",
+    "Active Request ID": "19544050-cd98-4416-9006-63d7e01cf65b",
     "On Chain Address": "f1tnzxjoau62th2n7wmx6j3qkjurs75niler54dbi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "19544050-cd98-4416-9006-63d7e01cf65b",
+      "Request Type": "First",
+      "Created At": "2025-07-02 12:52:57.954550051 UTC",
+      "Updated At": "2025-07-02 12:52:57.954551102 UTC",
+      "Active": true,
+      "Allocation Amount": "562949953421312 B",
+      "Signers": []
+    }
+  ]
 }
