@@ -1,0 +1,60 @@
+{
+  "Version": "1.3",
+  "ID": "f1tnzxjoau62th2n7wmx6j3qkjurs75niler54dbi",
+  "Issue Number": "32",
+  "Client Contract Address": "f410ft6h42gg2yl3wcyqsnp6lpwnynj5zsrez7tvi7di",
+  "Client": {
+    "Name": "Xinzhou",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.xinzhou-sg.com/",
+    "Social Media": "https://www.xinzhou-sg.com/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Sign&go, Xinzhou Media.\n\nSuzhou Xinzhou Culture Media Co., Ltd. offers a full range of visual content services, including corporate promotional videos, brand films, product videos, TVC advertisements, 3D animation, documentaries, movies, and TV series.\n\nWe are dedicated to shaping powerful brand images for our clients in the marketplace and creating intangible yet profound brand value.\n\nWith a team of experienced professionals who have over a decade of expertise in the film and television industry, we bring boundary-pushing creativity that aligns with our clients' brand values and propositions.\n\nWe earn our clients’ trust through innovative content solutions,\n\nEnsure successful execution through our professional film production teams,\n\nAnd capture market attention with flawless visual creations.\n\nWe aspire to become a benchmark in our industry and help our clients achieve industry leadership.\n\nSign&go, Xinzhou Media.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Data on corporate promotional videos, brand films, product videos, TVC advertisements, 3D animations, documentaries, movies, and TV series",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "As a Filecoin data preparer, we need to follow a standardized process to organize, package, and prepare client data for on-chain storage. First, we use tools such as lotus or boost to pack the raw data into CAR (Content Addressable aRchive) file format. Next, we generate a unique CID (Content Identifier) for each CAR file to ensure its addressability and integrity. Then, using tools like piece-into-car, we split large files into data segments that match the Filecoin sector size, typically 32GiB. After that, we perform a PreCommit operation, submitting the data hash to the Filecoin blockchain. This is followed by the Seal (data encoding) process, during which zero-knowledge proofs are generated to ensure secure and reliable storage. Once sealing is complete, we execute a Commit operation to submit the proof to the blockchain for verification. Throughout this process, we must utilize Filecoin’s proof systems, such as Proof of Replication and Proof of Spacetime, to guarantee that data is stored authentically and continuously. At the same time, we also need to record metadata for all data segments, including CID, sector number, timestamp, etc., for future queries and verification. Finally, we upload the prepared data to the designated storage miner and confirm that it has been correctly received and entered into the Filecoin storage market workflow.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.xinzhou-sg.com/category/xuanchuan\nhttps://www.xinzhou-sg.com/category/pinpai\nhttps://www.xinzhou-sg.com/category/guanggao",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02826762\nf02827135\nf02827010\nf02825281 \nf03610683\nf02827953\nf02827843\nf02827109\nf02826602\nf02825675",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "ReadyToSign",
+    "Validated At": "2025-07-02 12:52:57.954543874 UTC",
+    "Validated By": "spaceT9",
+    "Active": true,
+    "Updated At": "2025-07-02 12:52:57.954548310 UTC",
+    "Active Request ID": "19544050-cd98-4416-9006-63d7e01cf65b",
+    "On Chain Address": "f1tnzxjoau62th2n7wmx6j3qkjurs75niler54dbi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "19544050-cd98-4416-9006-63d7e01cf65b",
+      "Request Type": "First",
+      "Created At": "2025-07-02 12:52:57.954550051 UTC",
+      "Updated At": "2025-07-02 12:52:57.954551102 UTC",
+      "Active": true,
+      "Allocation Amount": "562949953421312 B",
+      "Signers": []
+    }
+  ]
+}
